@@ -63,7 +63,6 @@ Ensure you have the following installed:
  **During Execution**
  The program will display:
  1. **Frame Visualizations:**
-    - Original (BGR) frame.
     - HSV-transformed frame.
  2. **Histograms:**
     - Brightness distribution over time.
