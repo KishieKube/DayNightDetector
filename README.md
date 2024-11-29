@@ -40,20 +40,20 @@ Ensure you have the following installed:
 
 ## Code Overview
 - ### **Main Logic**
- - Input: Video file path.
- - Processing:
-   - Frame-by-frame analysis using brightness and HSV thresholds.
-   - Intermediate visualizations for better understanding.
- - Output
-   - Final percentages of day and evening frames.
-   - Visual display of key processing steps.
+   - **Input:** Video file path.
+   - **Processing:**
+     - Frame-by-frame analysis using brightness and HSV thresholds.
+     - Intermediate visualizations for better understanding.
+   - **Output:**
+     - Final percentages of day and evening frames.
+     - Visual display of key processing steps.
 - ### **Key Functions**
-**Frame Classification:**
-  - classify_frame(frame): Determines whether a frame is day or evening based on brightness and color thresholds.
-**Visualization:**
- - Side-by-side and stacked visualizations of original and processed frames.
+  - **Frame Classification:**
+     - classify_frame(frame): Determines whether a frame is day or evening based on brightness and color thresholds.
+  - **Visualization:**
+     - Side-by-side and stacked visualizations of original and processed frames.
 **Analysis:**
- - Brightness histograms and frame intensity graphs.
+     - Brightness histograms and frame intensity graphs.
 
 ## Example Output
  **During Execution**
