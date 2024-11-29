@@ -39,7 +39,7 @@ Ensure you have the following installed:
    - The program calculates and outputs the percentage of day and evening in the video.
 
 ## Code Overview
-### **Main Logic**
+- ### **Main Logic**
  - Input: Video file path.
  - Processing:
    - Frame-by-frame analysis using brightness and HSV thresholds.
@@ -47,23 +47,26 @@ Ensure you have the following installed:
  - Output
    - Final percentages of day and evening frames.
    - Visual display of key processing steps.
-
-### **Key Functions**
-
+- ### **Key Functions**
 **Frame Classification:**
   - classify_frame(frame): Determines whether a frame is day or evening based on brightness and color thresholds.
-
 **Visualization:**
  - Side-by-side and stacked visualizations of original and processed frames.
-
 **Analysis:**
  - Brightness histograms and frame intensity graphs.
 
 ## Example Output
  **During Execution**
+ 
+  - **HSV Frame Conversion**: Example of a video frame converted to HSV color space.
+![HSV Frame](interleved_color_intensity_frames.png)
+- **Brightness Heatmap**: Three different maps(line graph, colored line graph and a heatmap)  to representing brightness levels across frames, giving a visual summary of brightness variations throughout the video.
+![Brightness Heatmap](different_plots_represnting_brightnessvsFrameno.png)
+ 
  The program will display:
  1. **Frame Visualizations:**
     - HSV-transformed frame.
+    ! [HSV Frames] ()
  2. **Histograms:**
     - Brightness distribution over time.
     - Color intensity histograms for the frame.
