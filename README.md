@@ -57,8 +57,12 @@ Ensure you have the following installed:
 
 ## Example Output
  **During Execution**
-**HSV Frame Conversion**: Example of a video frame converted to HSV color space.
+- **HSV Frame Conversion**: Example of a video frame converted to HSV color space.
 ![HSV Frame](interleved_color_intensity_frames.png)
+- **Color intensite histogram for BGR and HSV**: representing color intensity histogram for both BGR and HSV plotted to understand the intensity level visually.
+![Brightness Heatmap](ColorIntensityHistogram.png)
+- **Brightness and frames**: Three different maps(line graph, colored line graph and a heatmap)  to representing brightness levels across frames, giving a visual summary of brightness variations throughout the video.
+![Brightness Heatmap](BrightnessVsFrameNo.png)
 - **Brightness Heatmap**: Three different maps(line graph, colored line graph and a heatmap)  to representing brightness levels across frames, giving a visual summary of brightness variations throughout the video.
 ![Brightness Heatmap](different_plots_represnting_brightnessvsFrameno.png)
 
